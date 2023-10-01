@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Be doctor ? with Raf</title>
+    <link rel="icon" type="image/x-icon" href="./image/medical-team.png">
+    <meta
+      name="description"
+      content="พวกเราหน่ะ อยากเป็นหมอจริงๆ หรอ ถ้าอยากตอบคำถามนั้นจริงๆ ละก็ ลองมาให้ Raf พาไปท่องโลก ของการเรียนหมอสักหน่อยไหม ที่ Be Doctor ? with Raf"
+    />
+    <meta
+      name="google-site-verification"
+      content="__9FEQW9m4FLI5mx88dvc3pik1wza314-EmhzgffyY0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="Doctor.css" />
+  </head>
+  <body>
+    <!-- Menu bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-tranparency fixed-top">
+      <div class="container-fluid">
+        <i class="fas fa-user-md fa-3x me-2 ms-2" style="color: #2e9cca"></i>
+        <a class="navbar-brand fw-bold" href="/"
+          ><h3>
+            <span style="color: #2e9cca">Be </span> <strong>"Doctor" ?</strong>
+          </h3></a
+        >
+        <button
+          class="navbar-toggler collapsed"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar1"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar1" class="navbar-collapse collapse" style="">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#service" class="nav-link me-3 h5">บทนำ</a>
+            </li>
+            <li class="nav-item">
+              <a href="#foundation" class="nav-link me-3 h5">หมอ ?</a>
+            </li>
+            <li class="nav-item">
+              <a href="#learn" class="nav-link me-3 h5">6 ปีของแพทย์</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Slide -->
+    <section id="slider">
+      <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+        <ol class="carousel-indicators">
+          <button
+            data-bs-target="#mySlider"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+          ></button>
+          <button
+            data-bs-target="#mySlider"
+            data-bs-slide-to="1"
+            class=""
+          ></button>
+          <button
+            data-bs-target="#mySlider"
+            data-bs-slide-to="2"
+            class=""
+          ></button>
+          <button
+            data-bs-target="#mySlider"
+            data-bs-slide-to="3"
+            class=""
+          ></button>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="dark-overlay">
+                <div class="container">
+                    <div class="carousel-caption d-none d-sm-block mb-3">
+                        <p class="text-white fw-bolder">
+                            <h3>
+                                <div class="b">
+                                    เว็บไซด์นี้&nbsp;มิได้มีเจตนาในการโจมตีหรือยกย่องอาชีพหมอในทางใดทางหนึ่ง <br> 
+                            หากเพียงแต่ต้องการเผยแพร่ข้อมูล และตีแผ่ความคิดเห็นกับแง่มุมเกี่ยวกับอาชีพหมอในฝั่งของผู้เขียน <br> 
+                            และบทสัมภาษณ์จากกลุ่มตัวอย่างที่นำมาใช้เป็นจำนวน 10 คน <br> 
+                                </div>
+                            <br>
+                            <span class="fw-lighter " style="color: #aaabb8;">* หมายเหตุ เว็ปนี้ผมเขียนขึ้นมาเพื่อ แสดงความเห็น รวมถึงบอกข้อมูลต่างๆเกี่ยวกับอาชีพหมอ 
+                                หากพวกเราใช้ภาษาที่ไม่เป็นทางการ หรือมีความผิดพลาดของข้อมูลประการใด ขออภัยมา ณ ที่นี้ด้วยนะครับ
+                            </span>     
+                            </h3>                       
+                         </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item carousel-image-2">
+           <div class="dark-overlay">
+            <div class="container">
+                <div class="carousel-caption d-none d-sm-block">
+                    <p class="text-white fw-bolder">
+                        <h3>
+                            <div class="b">
+                                ปัจจุบันอาชีพหมอได้รับความสรรเสริญและการยกย่องจากผู้คนมากมายว่า
+                            พวกเขาคือผู้ที่ช่วยชีวิตคนมากมายหลายชีวิตเอาไว้ 
+                            แต่ <span class="text-info fw-bold">เวลา</span> ที่เหลือจากการรักษาคนไข้ของพวกเขาเหล่านั้นนั้นช่างน้อยนิดเมื่อเทียบกับอาชีพอื่น 
+                            </div>
+                        </h3>                       
+                    </p>
+            </div>
+            </div>
+           </div>
+        </div>
+        <div class="carousel-item carousel-image-3">
+           <div class="dark-overlay">
+            <div class="container">
+                <div class="carousel-caption d-none d-sm-block">
+                    <p class="text-white fw-bolder">
+                        <h3>
+                            <div class="b">
+                                ในปัจจุบันผู้ปกครองในสังคมไทยนั้น ต่างปรารถนาให้ลูกของตนเองได้เรียนหมอ <br>
+                                จนนำไปสู่การสออบเข้าแข่งขันในคณะแพทยศาสตร์ที่สูง <br>
+                                เด็กนักเรียนจากมากมายหลายจังหวัดต้องสอบแข่งกัน
+                                เพื่อเข้าชิง <span class="fw-bold" style="color: aquamarine;">โอกาส</span> ที่พวกเขาจะได้ทำตามที่<span class="fw-bold text-warning"> พ่อแม่ต้องการ</span> <br> <br>
+                                แต่ ก็มีเด็กนักเรียนบางส่วนนั้นที่มีความต้องการอยากเป็นหมออยู่แล้ว 
+                                และส่วนสุดท้ายคือเด็กที่ไม่รู้ว่าตนเองอยากเป็นอะไร 
+                                จึงเลือกที่จะอยากสอบเข้าเป็นหมอเนื่องจากฐานะและ <span class="fw-bold" style="color: red;">ความมั่นคง</span> ในอาชีพหมอ
+                            </div>
+                        </h3>                       
+                    </p>
+            </div>
+            </div>
+           </div>
+        </div>
+        <div class="carousel-item carousel-image-4">
+            <div class="dark-overlay">
+                <div class="container ">
+                    <div class="carousel-caption d-none d-sm-block ">
+                        <p class="text-white h3" style="line-height: 2.0;">
+                เพราะฉะนั้น ในการส่งท้ายของพวกเรานั้น คือ พวเราหวังว่า เนื้อหาในเว็บนี้จะช่วงในการตัดสินใจแก่คุณไม่มาก ก็น้อย
+                 <br> <span class="fw-bold" style="color: #2e9cca;">Good Luck Everyone</span>                    
+                        </p>
+                        <hr>
+                </div>  
+                </div>
+            </div>
+         </div>
+          <button
+            class="carousel-control-prev"
+            data-bs-target="#mySlider"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            data-bs-target="#mySlider"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Intro -->
+    <section id="service">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-md-4"
+            style="
+              color: #aaabb8;
+              margin-top: 40px;
+              margin-left: 3%;
+              margin-right: 1%;
+            "
+            id="Intro"
+          >
+            <center>
+              <i class="fas fa-comment-medical fa-3x mb-2"></i>
+              <h3
+                style="text-decoration: underline #aaabb8; color: white"
+                class="fw-bold"
+              >
+                Introduction
+              </h3>
+            </center>
+            <p class="h4">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; สวัสดีครับทุกคน ผมชื่อว่า
+              <span class="fw-bold" style="color: #2e9cca">"ราฟ"</span>
+              นะครับ ผมจะมารับหน้าที่ในการ นำพาทุกคนท่องไปในเว็บนี้นะครับ
+              ผมจะคอยช่วงเสริมเนื้อหาในส่วนต่างๆ
+              ขอให้เพลิดเพลินไปกับเนื้อหานะครับ
+            </p>
+          </div>
+
+          <img
+            src="image/man-4807395.jpg"
+            alt=""
+            class="img-fluid col-md-3"
+            style="max-height: 450px"
+            loading="lazy"
+          />
+
+          <div
+            class="col-md-4"
+            style="color: #aaabb8; margin-top: 20px; margin-left: 3%"
+          >
+            <center>
+              <i class="fas fa-star-of-life fa-3x mb-2"></i>
+              <h3
+                style="text-decoration: underline #aaabb8; color: white"
+                class="fw-bold"
+              >
+                My suggest
+              </h3>
+            </center>
+            <p class="h4">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เนื้อหาในเว็บ ผมจะเล่าไปเป็นเสต็ป
+              แล้วมีราฟ คอยเสริมเกร็ดความรู้ เล่าเรื่องบางอย่าง
+              หรือนำพาทุกคนไปสู่ส่วนต่างๆ <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;หากมีความผิดพลาดของเนื้อหาประการใด
+              ก็ขออภัยมา ณ ที่นี้ด้วยนะครับ
+              <br />
+              <br />
+              <center>
+                <span style="color: #2e9bcacb" class="fw-bold h3"
+                  >Thank you :)</span
+                >
+              </center>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Foundation of Doctor Image-->
+    <section id="foundation">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="outer">
+            <div class="inner">
+              <div class="centered">
+                <h1 class="fw-bold">
+                  <span style="color: white">What is the</span> <br />
+                  <span style="color: #a8d0e6">"Doctor"</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Foundation of Doctor Detail-->
+    <section id="firstdetail" style="margin-top: 0px">
+      <div class="container-fluid" style="color: #aaabb8">
+        <div class="row">
+          <div class="boxx1">sda</div>
+          <div
+            class="col-md-3"
+            style="
+              color: #aaabb8;
+              background-color: rgba(0, 0, 0, 0.7);
+              border-radius: 5%;
+              margin-top: 2.8%;
+              padding: 2%;
+              border: dotted white;
+              margin-right: 2.8%;
+            "
+          >
+            <h2
+              class="text-center"
+              style="text-decoration: underline white; color: white"
+            >
+              หมอ ?
+            </h2>
+            <h4>
+              <hr />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;หมอก็คือผู้มีหน้าที่ซักประวัติ
+              ตรวจร่างกาย และตรวจวินิจฉัยของผู้ป่วย เพื่อสั่งการรักษา
+              และให้การรักษาโรคของผู้ป่วย หรือหากเขียนสรุปอย่างง่าย คือ<br />
+              <br />
+              <center>
+                <span style="color: #2e9cca" class="fw-bold"
+                  >ซักประวัติ + ตรวจร่างกาย <br />
+                  + ตรวจวินิจฉัยผู้ป่วย <br />| <br />| <br />V <br />
+                  สั่งการรักษา + รักษาโรค</span
+                >
+              </center>
+              <br />
+            </h4>
+          </div>
+          <div
+            class="col-md-8"
+            style="
+              color: #aaabb8;
+              background-color: rgba(0, 0, 0, 0.6);
+              border-radius: 5%;
+              margin-top: 2.8%;
+              padding: 2%;
+              border: dotted white;
+            "
+          >
+            <h2
+              class="text-center"
+              style="text-decoration: underline white; color: white"
+            >
+              คุณลักษณะของหมอ
+            </h2>
+            <h4>
+              <hr />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.
+              <span style="color: rgb(65, 116, 150)" class="fw-bold"
+                >ความขยันและพยายาม</span
+              >
+              - สิ่งเป็นสิ่งที่ทุกอาชีพต้องมีอยู่แล้ว
+              เพียงแค่หมั่นเพิ่มพูนทักษะและความรู้ของตนเอง
+              เพื่อนำทักษะนั้นไปประยุกต์ใช้ในอาชีพของตน <br />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.
+              <span style="color: rgb(65, 116, 150)" class="fw-bold"
+                >ไม่รังเกียจผู้ป่วย</span
+              >
+              - ในคุณลักษะนี้นั้น ถ้าเราเข้าไปเรียนหมอเบื้องต้นเป็นเวลา 6 ปี
+              ก็ทำให้เราเข้าใจผู้ป่วยและพร้อมที่ จะรักษาผู้ป่วยแน่นอนครับ
+              แต่ถ้ามีความรู้สึกรังเกียจผู้ป่วยมากๆ จริง
+              หรือฝังใจก็อาจจะไม่เหมาะกับอาชีพหมอก็ได้นะครัย <br />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.
+              <span style="color: rgb(65, 116, 150)" class="fw-bold"
+                >ชื่นชอบความท้าทาย</span
+              >
+              - คุณลักษณะนี้นั้น
+              เป็นเหมือนสิ่งที่ทำให้เราได้เผชิญหน้ากับสถานการณ์ใหม่ๆ
+              ที่เราไม่คุ้นเคย ซึ่งการรักษาโรคต่าง
+              ไม่มีทางทีเราจะได้รักษาคนไข้ที่ป่วย เฉพาะที่โรคเรารู้จัก
+              หรืออาการเจ็บป่วยเฉพาะที่เรามีความรู้
+              ทำให้เราต้องตัดสินใจในสถานการณ์ที่ยากลำบากบ่อยๆ แน่นอนครับ <br />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.
+              <span style="color: rgb(65, 116, 150)" class="fw-bold"
+                >มีความอดทน และความซื่อสัตย์</span
+              >
+              - เรียนหมอต้องอดทนแน่ๆ กับการเรียน ความกดดันจากคนรอบข้าง
+              ความรับผิดชอบที่ตนแบกรับ และอื่นๆ อีกมากมาย <br />
+              <br />
+              <hr />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;คุณลักษณะพวกนี้นั้น ราฟเพียงแค่
+              ลิสต์จากหลายๆ แหล่งข้อมูล แล้วรวบหลายๆ อันเข้าด้วยกัน
+              เพียงแต่ในความคิดของราฟนั้น คุณสมบัตินั้น เรามีตั้งแต่แรกก็ดี
+              แต่ถ้ายังไม่มีละก็ เราก็สามารถสร้างมันขึ้นมาได้
+              ซึ่งคุณสมบัติเหล่านี้นั้น ความจริงทุกๆ อาชีพก็มีอยู๋แล้ว
+              เพียงแต่อาจใช้ไม่เท่ากัน แล้วแต่คุณลักษณะงานไป
+            </h4>
+          </div>
+        </div>
+        <div
+          class=""
+          style="
+            color: #aaabb8;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 5%;
+            margin-right: 1.8%;
+            padding: 2%;
+            border: dotted white;
+            margin-left: 1.8%;
+            margin-top: 2.8%;
+          "
+        >
+          <h2>
+            <span style="color: rgba(0, 0, 0, 0)">5225</span>
+            <span style="text-decoration: underline white; color: white"
+              ><i class="far fa-grin-squint fa-2x me-3"></i>ข้อดี</span
+            >
+          </h2>
+          <hr />
+          <h4>
+            1.
+            <span style="color: #a8d0e6" class="fw-bold"
+              >ได้ช่วยเหลือผู้อื่น</span
+            >
+            เราสามารถช่วยเหลือคนแน่นอน เพราะหน้าที่ของหมอเรานั้นคือการรักษาคนไข้
+            นี่คือสิ่งที่น่าภาคภูมิใจที่สุดของคนเป็นหมอแน่นอนที่สุด
+            เพราะหลังจากเรียนมาอย่างหนักแล้วได้นำความรู้นั้นมาใช้จริงอย่างเต็มที่
+            และอีกอย่างหนึ่งที่แน่นอน คือการรักษาคนในครอบครัว
+            เราคงรู้กันอยู่แล้วถ้าหาก
+            เรามีญาติเป็นหมอหรือพยาบาลในโรงพยาบาลที่เราทำการรักษา
+            นั้นทำให้เราสามรถเข้ารับการรักษาได้อย่างรวดเร็วมากๆ
+            เมื่อเทียบกับปกติ
+            <br />
+            <br />
+            2.
+            <span style="color: #a8d0e6" class="fw-bold"
+              >เป็นอาชีพที่มั่นคง</span
+            >
+            ประเทศไทยเราก็ยังคงเป็นประเทศที่ขาดแคลนหมอ เป็นอย่างมาก
+            เพราะฉะนั้นโอกาสตกงานของอาชีพหมอแทบเป็นไปไม่ได้เลยครับ
+            ยิ่งถ้าพูดถึงในช่วงของโรคระบาดช่วงนี้
+            หมอเป็นที่ต้องการอย่างมากแน่นอน
+            <br />
+            <br />
+            3.
+            <span style="color: #a8d0e6" class="fw-bold">รายได้ค่อนข้างดี</span>
+            รายได้ของหมอ ถือว่าเริ่มต้นได้สูง เมื่อเทียบกับอาชีพอื่นๆ
+            แต่ถ้านำไปเปรียบกับเวลาทำงาน ก็จะถือว่า รายได้สมควรกับเวลาทำงานมากๆ
+            T.T ทำงานหนักมากกก
+          </h4>
+          <br />
+          <h2 class="text-end">
+            <span style="text-decoration: underline white; color: white"
+              ><i class="far fa-angry me-3 fa-2x"></i>ข้อเสีย</span
+            ><span style="color: rgba(0, 0, 0, 0)">5225</span>
+          </h2>
+          <hr />
+          <h4>
+            1.
+            <span style="color: #5085a5" class="fw-bold">เรียนหนักมากกก</span>
+            เราคงไม่พูดกันมากในส่วนนี้ เดี๋ยวเราจะได้รู้กันในส่วนที่ 2
+            ที่ผมจะพูดเกี่ยวกับ 6 ปีเบื้องต้น ในการเรียนหมอ
+            <br />
+            <br />
+            2.
+            <span style="color: #5085a5" class="fw-bold">ใช้เวลาเรียนนาน</span>
+            เรียนหมอใช้เวลาในการเรียนนานกว่าคณะอื่นๆ คือ จะต้องเรียนถึง 6
+            ปีด้วยกัน กว่าจะจบการศึกษาก็อายุประมาณ 24 ปี
+            แล้วจะต้องไปใช้ทุนอีกประมาณ 3 ปี
+            และหากอยากเรียนหมอเฉพาะทางก็ต้องเรียนต่ออีกใช้เวลาประมาณ 3-5 ปี
+            แล้วแต่สาขาที่เลือกเรียน และยังมีเรียนต่อในอนุสาขาของเฉพาะทางอีก 2
+            ปีถ้าอยากนะ 55
+            <br />
+            <br />
+            3.
+            <span style="color: #5085a5" class="fw-bold">ปัญหาฟ้องร้อง</span
+            >&nbsp;(ที่อาจจะเจอ) ผมจะไม่พูดเกี่ยวกับเรื่องนี้มาก
+            แต่ผมจะทิ้งลิงค์ข้อมูลไว้ให้นะครับ
+            <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a
+              href="https://www.bangkokbiznews.com/news/detail/900670"
+              target="blank"
+            >
+              Link 1</a
+            >
+            - อันนี้เป็นอ่านอย่างคร่าวๆนะครับ
+            <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a
+              href="https://www.senate.go.th/assets/portals/93/fileups/272/files/S%E0%B9%88ub_Jun/3journal/b132%20jul_8_3.pdf"
+              target="blank"
+            >
+              Link 2</a
+            >
+            - ส่วนอันนี้เนื้อหาครอบลุมพอสมควร
+            <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a
+              href="https://phad.ph.mahidol.ac.th/journal_law/4-2/12-Pajaree.pdf"
+              target="blank"
+            >
+              Link 3</a
+            >
+            - อันนี้เยอะเหมือนกัน 55
+          </h4>
+        </div>
+      </div>
+      <center>
+        <button
+          class="btn btn-tranparency fw-bold"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse-content10"
+          style="border: 5px outset #aaabb8; color: white; margin-top: 2.8%"
+        >
+          <h3><i class="fas fa-hand-holding-usd me-2"></i> เงินเดือนของหมอ</h3>
+        </button>
+        <p class="text-center fw-lighter text-white">ลองคลิกปุ่มดูสิ</p>
+      </center>
+      <div id="collapse-content10" class="collapse my-2">
+        <div class="card">
+          <div class="card-body" style="background-color: #aaabb8">
+            <div class="row" style="padding-top: 2%; padding-bottom: 2%">
+              <img
+                src="image/money 1.jpg"
+                alt=""
+                class="col-md-4 img-fluid"
+                style="border-radius: 10%; max-height: 650px"
+                loading="lazy"
+              />
+              <div class="col-md-8" style="line-height: 3">
+                <h4>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เงินเดือนของหมอจบใหม่ ปีแรก หรือ
+                  Intern ของ ร.พ.รัฐ (ของแต่ละที่ไม่เท่ากัน เช่น ในเมือง
+                  กับท้องถิ่น) ประมาณ
+                  <span style="background-color: white">55000</span> บาท <br />
+                  <br /><span
+                    style="text-decoration: underline; color: white"
+                    class="h3"
+                  >
+                    รายละเอียด </span
+                  ><br />
+                  <hr />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.
+                  <span style="color: #25274d" class="fw-bold"
+                    >เงินเดือน เริ่มต้น 18000 บาท</span
+                  ><br />
+                  แต่จะเพิ่มขึ้นเรื่อย ๆ
+                  แต่ถ้าหากลาไปเรียนต่อเฉพาะทางจะไม่เพิ่มช่วงที่เรียน
+                  หลังจบเฉพาะทาง จะมีเงินเดือนอยู่ช่วง 25000-30000++ บาท <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.
+                  <span style="color: #25274d" class="fw-bold"
+                    >เงินประจำตำแหน่ง พ.ต.ส. 5000 บาท</span
+                  ><br />
+                  แพทย์เฉพาะทางจะได้ 10000 บาท แต่ถ้าเป็นในสาขาที่ขาดแคลน
+                  จะอยู่ที่ 15000 บาท <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.
+                  <span style="color: #25274d" class="fw-bold"
+                    >เงินค่าไม่ประกอบเวช 10000 บาท</span
+                  ><br />
+                  การไม่ทำเวช คือ การไม่ไปรับงานนอกราชการ เช่น
+                  การทำงานในโรงพยาบาลเอกชน หรือการเปิดคลินิก <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.
+                  <span style="color: #25274d" class="fw-bold"
+                    >เงิน Pay for Performance (P4P) ประมาณ 7000 บาท</span
+                  ><br />
+                  ตรวจคนไข้ผู้ป่วยนอก การตรวจผู้ป่วยใน ทำหัตถการทางการแพทย์
+                  (การรักษาผู้ป่วยโดยมีการใช้เครื่องมือ
+                  และอุปกรณ์ต่างๆเข้าร่างกายผู้ป่วย เช่น ผ่าตัด ใส่เฝือก เจาะข้อ
+                  เป็นต้น) จำนวนเงินก็ขึ้นกับปริมาณที่ทำ <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.
+                  <span style="color: #25274d" class="fw-bold"
+                    >เวรวอร์ด ประมาณ 12000 บาท</span
+                  ><br />
+                  การทำงานบนวอร์ด ปกติจะทำ ประมาณ 8 เวร / เดือน <br />
+                  วันธรรมดา 16:00 – 8:00 น. ทำประมาณ 6 เวร / เดือน จะอยู่ที่
+                  1400 บาท / เวร<br />
+                  วันเสาร์-อาทิตย์ 24 ชั่วโมง ทำประมาณ 2 เวร / เดือน จะอยู่ที่
+                  2000 บาท /เวร <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.
+                  <span style="color: #25274d" class="fw-bold"
+                    >เวร ER ประมาณ 3300 บาท</span
+                  ><br />
+                  เวรห้องฉุกเฉิน 8 ชั่วโมง จำนวน 3 เวร / เดือน จะอยู่ที่ 1100
+                  บาท / เวร <br />
+                  <br />
+                  &nbsp;&nbsp;&nbsp;<span style="color: #35566b" class="fw-bold"
+                    ># จากข้อมูลข้างต้น
+                    อาจมีการเปลี่ยนแปลงของข้อมูลในแต่ละช่วงเวลา เพราะฉะนั้น
+                    ข้อมูลชุดนี้ ใช้เพื่อการคาดการณ์คร่าวๆ เท่านั้น</span
+                  >
+                  <br />
+                </h4>
+              </div>
+              <h4
+                style="margin-top: 20px; color: black"
+                class="fw-bold col-md-10"
+              >
+                <hr />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;โอเครครับทุกคน
+                เราก็จบกับส่วนแรกไปแล้วนะครับ เราก็ได้รู้แล้ว ว่าหมอนั้น
+                คืออะไรกันแน่ ลักษณะของหมอ ข้อดี-ข้อเสีย มาถึงตรงนี้
+                บางคนอาจจะคิดว่า ตัวเองเหมาะหรือไม่เหมาะกับอาชีพหมอกันแล้ว
+                แต่เนื้อหาพวกนั้นยังไม่พอครับ
+                ถ้าเราจะรู้ว่าเราจะอยู่กับมันได้ไหม เราก็ต้องรู้ว่า
+                เข้าไปเรียนอะไรบ้าง มีเนื้อหาว่าอย่างไร
+                เราจะได้ตัดสินใจได้ขาดไปเลย งั้นเราไปต่อกันเลยนะครับ Let’s go!!!
+              </h4>
+              <img
+                src="image/mascot.jpg"
+                alt=""
+                class="col-md-2 mascot img-fluid"
+                style="max-height: 400px"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Learning Image -->
+    <section id="learn">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="outer">
+            <div class="inner">
+              <div class="centered">
+                <h1 class="fw-bold" style="color: #a8d0e6">
+                  6 ปีนักศึกษาแพทย์ <br /><span style="color: white">
+                    เจออะไรบ้าง ?</span
+                  >
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Learning -->
+    <section id="learndetail" style="margin-top: 2%">
+      <div class="container-fluid">
+        <div class="row">
+          <img
+            src="image/mascot.jpg"
+            alt=""
+            class="col-md-2 mascot img-fluid"
+            style="max-height: 400px"
+            loading="lazy"
+          />
+          <h4
+            style="margin-top: 20px; color: white; padding-left: 3%"
+            class="fw-bold col-md-10"
+          >
+            <hr />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ผมต้องบอกไว้ก่อนเลยว่า
+            เนื้อหาการเรียนนั้น ทุกๆมหาลัยน่าจะคล้ายๆกัน แต่ขึ้นอยู่กับการจัดการ
+            การสอน เพราะฉะนั้น การจัดการเนื้อหาที่เรียนในแต่ละมหาลัยจะแตกต่างกัน
+            ยกตัวอย่างเช่น บางมหาลัยในปี 2
+            อาจจะเรียงเรื่องความปกติของร่างกายไปทีเดียว แล้วปี 3
+            เรียนเรื่องความผิดปกติของร่างกาย
+            แต่บางมหาลัยอาจจะเรียนเรื่องระบบหนึ่งทีเดียวทั้ง ความปกติ
+            และผิดปกติไปเลย เพราะฉะนั้น ผมจะไม่ฟิคว่า เรื่องนี้เรียนปีนี้
+            เรื่องนั้นเรียนปีนั้น ขอเพียงแค่รู้เนื้อหาที่จะต้องเรียนคร่าวๆ
+            นะครับ ถ้าข้อมูลมีความผิดพลาดประการใด ขอประทานโทษด้วยนะครับ
+          </h4>
+        </div>
+      </div>
+      <h3 class="text-center fw-bold text-white" style="margin-top: 5%">
+        "คลิกรูปภาพดูสิ"
+      </h3>
+      <div class="container" style="height: auto">
+        <div class="row" style="padding-top: 5%">
+          <div class="col-md-4">
+            <img
+              src="/image/1.jpg"
+              alt=""
+              class="img_cover"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-content"
+              loading="lazy"
+              height="300"
+            />
+          </div>
+          <div id="collapse-content" class="collapse my-3">
+            <div class="card">
+              <div
+                class="card-body h5 card_bg">
+                <h4
+                  class="text-center fw-bold"
+                  style="text-decoration: underline"
+                >
+                  ปีที่ 1 เรียนปรับพื้นฐานเนื้อหา
+                </h4>
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สำหรับในปี 1
+                จะเป็นปีเดียวที่จะได้เรียนเหมือนเด็กคณะอื่น ๆ คือ
+                เรียนตามตารางเรียนประมาณ 8.00 น.-16.00 น. <br />
+                <br />
+                <span class="fw-bold h4" style="text-decoration: underline"
+                  >เทอม 1</span
+                >
+                <br />
+                <br />
+                1.ศิลปะการใช้ภาษาไทยเพื่อการสื่อสาร (Art of Using Thai Language
+                for Communication) <br />
+                <br />
+                2.การศึกษาทั่วไปเพื่อพัฒนามนุษย์ (General Education for Human
+                Development) <br />
+                <br />
+                3.สังคมศึกษาเพื่อการพัฒนามนุษย์ (Social Studies foe Human
+                Development) <br />
+                <br />
+                4.ศิลปะวิทยาการเพื่อพัฒนาความเป็นมนุษย์ (Arts and Sciences for
+                Human Development) <br />
+                <br />
+                5.ภาษาอังกฤษ (English) <br />
+                <br />
+                6.แคลคูลัสและ ระบบสมการเชิงอนุพันธ์สามัญ (Calculus and System of
+                Ordinary Differential Equations) <br />
+                <br />
+                7.ฟิสิกส์สำหรับการแพทย์ (Physics for Medical Science) <br />
+                <br />
+                8.เคมีทั่วไป (General Chemistry) <br />
+                <br />
+                9.ชีววิทยาสาระสำคัญ (Essential Biology) <br />
+                <br />
+                10.ปฏิบัติการฟิสิกส์ทั่วไป (General Physics Laboratory) <br />
+                <br />
+                11.ปฏิบัติการเคมี (Chemistry Laboratory) <br />
+                <br />
+                12.ปฏิบัติการชีววิทยา (Biology Laboratory) <br />
+                <br />
+                <span class="fw-bold h4" style="text-decoration: underline"
+                  >เทอม 2</span
+                ><br />
+                <br />
+                1.วิชาการศึกษาแพทย์ (Medical Education) <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เป็นการเรียนทั่วไป
+                แนะนำวิธีเรียนที่เหมาะสมของแต่ละบุคคล จิตวิทยาการเรียนรู้
+                วิธีการเรียนที่มีประสิทธิภาพในโรงเรียนแพทย์ และวิธีวัดผลการเรียน
+                <br />
+                <br />
+                2.วิชาชีพแพทย์ (Medical Profession) <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;นิยามและปัจจัยของสุขภาพ
+                ประวัติและวิวัฒนาการทางการแพทย์ จรรยาบรรณในวิชาชีพแพทย์
+                บทบาทของแพทย์ต่อการส่งเสริมสุขภาพ แลพการป้องกัน แก้ไขปัญหาสุขภาพ
+                <br />
+                <br />
+                3.ภาษาอังกฤษ (English) <br />
+                <br />
+                4.สถิติสำหรับวิทยาศาสตร์การแพทย์ (Statistic for Medical Science)
+                <br />
+                <br />
+                5.เคมีอินทรีย์ (Organic Chemistry) <br />
+                <br />
+                <span class="fw-bold">
+                  <hr />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ราฟว่าเนื้อหาในปีหนึ่งส่วนใหญ่จะเป็นพวกวิชาที่เราเคยเรียนต่อ
+                  มอปลายมาแล้ว แต่จะเป็นเนื้อหาที่ลึกขึ้น เพราะฉะนั้น
+                  จะเป็นปีที่ชิวที่สุด ในการเรียนหมอแน่นอน
+                  เนื้อหาของปีหนึ่งก็มีประมาณนี้
+                  งั้นราฟมาเล่าเรื่องของราฟสักหน่อยละกัน ว่าราฟนั้น
+                  ก็เป็นเหมือนหลายๆคนที่ครอบครัวอยากให้เรียนหมอ
+                  แต่การบอกเล่าของครอบครัวราฟนั้นจะนำเสนอแต่ ข้อดีของมัน
+                  ราฟรู้ว่า ในทุกๆอย่างนั้นมีข้อดีและข้อเสีย
+                  นั่นจึงเป็นเหตุผลให้ราฟทำเว็ปนี้ขึ้นมานั่นเองครับ
+                  ซึ่งราฟก็หวังว่า เว็ปนี้จะช่วยให้ทุกคน
+                  สามารถตัดสินใจในการเลือกว่าจะเป็นหมอหรือไม่ได้นะครับ
+                  ข้อมูลราฟพอไว้แค่นี้จะมาเล่าใหม่เรื่อย ๆ ไปต่อกันเลย
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="image/2.jpg"
+              alt=""
+              class="img_cover"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-content1"
+              loading="lazy"
+              height="300"
+            />
+          </div>
+          <div id="collapse-content1" class="collapse my-3">
+            <div class="card">
+              <div
+                class="card-body h5 card_bg"
+              >
+                <h4
+                  class="text-center fw-bold"
+                  style="text-decoration: underline"
+                >
+                  ปีที่ 2 ก้าวแรกสู่การเรียนแพทย์
+                </h4>
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เนื้อหาในปีนี้
+                จะได้เรียนเกี่ยวกับโครงสร้างของร่างกายและระบบการทำงานของร่างกายในสภาวะร่างกายปกติอย่างละเอียด
+                เช่น ระบบประสาท ระบบเลือด ฯลฯ (ซึ่งเรียกได้ว่า
+                จะต้องรู้ลึกไปถึงกล้ามเนื้อส่วนต่าง ๆ
+                ของร่างกายว่ามีหลอดเลือดชนิดไหนบ้างที่ไปหล่อเลี้ยงให้สามารถทำงานได้ตามปกติ)
+                นอกจากนี้ยังจะต้องเรียนรู้ในวิชาอื่น ๆ อีก เช่น วิชาทางกายวิภาค
+                สรีรวิทยา พันธุศาสตร์ เป็นต้น<br />
+                <br />
+                สาขาวิชาแบ่งได้เป็น 3 สาขา ดังนี้<br />
+                <br />
+                1.Anatomy (ana – การแยก, แยกออก tomia - ตัด) (กายวิภาคศาสตร์)
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ศึกษาโครงสร้าง ตำแหน่ง
+                และลักษณะของส่วนต่างๆ ของสิ่งมีชีวิตโดยละเอียด
+                ซึ่งศึกษาได้โดยการชำแหละ
+                หรือตัดเส้นชิ้นส่วนที่ต้องการศึกษาจากการร่างกาย <br />
+                1.1. Gross Anatomy (Gross - ทั้งหมด) (มหกายวิภาคศาสตร์) <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เป็นการพบกับอาจารย์ใหญ่นั่นเอง
+                เป็นวิชาที่ได้ศึกษาเกี่ยวกับลักษณะ และตำแหน่งของโครงสร้าง
+                หรืออวัยวะต่างๆของร่างกาย และดูความสัมพันธ์ทั้งหมด <br />
+                1.2. Microscopic Anatomy (Micro - เล็ก) /Histology (Histo –
+                เนื้อเยื้อ , Logos - การศึกษา) (จุลกายวิภาคศาสตร์) <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ส่วนประกอบถายในโครงสร้างต่างๆ เช่น
+                เซลล์ เนื้อเยื่อ โดยการศึกษาผ่านชิ้นส่วนต่างๆ ผ่านกล้องจุลทรรศน์
+                <br />
+                1.3. Embryology (Embryon – ตัวอ่อน) (คัพภวิทยา/วิทยาเอ็มบริโอ)
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การกำนิดของโครงสร้างต่างๆ
+                มักจะศึกษา Development จากสัตว์ในระยะต่างๆ <br />
+                <br />
+                2. Physiology (Physis - กำเนิด หรือธรรมชาติ) (สรีรวิทยา) <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กลไกภายในร่างกาย ทั้งในระดับระบบ
+                อวัยวะ เซลล์ โดยที่ไม่ใช่การศึกษากลไกเคมี แต่เป็นการศึกษาว่า
+                หากเกิดเหตุการณ์นี้ขึ้นแล้ว
+                กลไกภายในของร่างกายจะตอบสนองอย่างไรตามมา <br />
+                <br />
+                3. Biochemistry (ชีวเคมี)
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กลไกภายในร่างกายในเชิงเคมี
+                ปฏิกิริยาต่างๆ ภายในร่างกาย ตั้งแต่การสร้างสารอินทรีย์ทั่วไป
+                จนไปถึงปฏิกิริยาสร้างหรือ สลายสารต่างๆ ที่สำคัญในร่างกาย <br />
+                <br />
+                รายวิชาของปี 2 จะมีวิชาดังนี้ <br />
+                <br />
+                1. รากฐานของร่างกายมนุษย์: จากโมเลกุลสู่ร่างกาย (Foundation of
+                the Human Body: From Molecules to Body) <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ศึกษาเกี่ยวกับพื้นฐานของโปรตีน
+                และเซลล์ต่างๆ path way ในการสังเคราะห์สาร Nucleic Acid
+                และกระบวนการของ RNA และ DNA เรียนรู้การส่อง Tissue
+                ที่ไม่ได้เรียนละเอียดตอนมอปลาย และเรียนเรื่อง
+                การศึกษากำเนิดของอวัยวะ หรือโครงสร้างต่างๆ ในระดับ Embryo <br />
+                <br />
+                2. รากฐานของร่างกายมนุษย์: การควบคุมทางประสาทของฮอร์โมน
+                (Foundation of the Human Body: Neural and Hormonal Regulation)
+                <br /><br />
+                3. รากฐานของร่างกายมนุษย์: พลังงานและเมตาบอลิซึม (Foundation of
+                the Human Body: Energy and Metabolism ) <br /><br />
+                4. ชีวิตมนุษย์ (The Human Life) <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เกี่ยวกับนิยามของสุขภาพทั่วไปของมนุษย์
+                โภชนาการ การนอน การออกกำลังกาย
+                และความรู้เบื้องต้นทางจิตเวชในวัยต่างๆ และการดูแลเบื้องต้น
+                <br /><br />
+                5. ระบบผิวหนัง กล้ามเนื้อ และกระดูก 1 (Integumentary and
+                Musculoskeletal System I ) <br /><br />
+                6. ระบบไหลเวียน 1 (Circulatory System I )<br />
+                <br />
+                7. ระบบเลือด และลิมฟอยด์ (Blood and Lymphoid System I )<br /><br />
+                8. ระบบหายใจ 1 (Respiratory System I )<br /><br />
+                9. ระบบทางเดินอาหาร ตับ และทางเดินน้ำดี 1 (Gastrointestinal and
+                Hepatobiliary System I) <br /><br />
+                10. ระบบปัสสาวะ 1 (Urinary System I )<br /><br />
+                11.ระบบสืบพันธุ์ 1 ( Reproductive System I )<br /><br />
+                12. ระบบประสาท 1 ( Nervous System I )<br /><br />
+                13. วิชาประยุกต์ความรู้ปรีคลินิก ( Applied Preclinical Knowledge
+                )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เป็นการนำความรู้ตลอดทั้ง ปี 2
+                มารวมกันในวิชาเดียว
+                โดยจะเป็นการจำลองสถานการณ์เหมือนกับเรากำลังอ่านประวัติของคนไข้
+                ผลการตรวจเบื้องต้น และผลจากห้องปฏิบัติการจริงๆ
+                โดยคนไข้หนึ่งคนอาจมีมากกว่าหนึ่งโรค แล้วยังได้ฝึกเขียน Problem
+                list เสมือนกำลังเขียนลงในบันทึกของผู้ป่วยจริงๆ<br /><br />
+                14. การแพทย์ที่มีจิตวิญญาณของความเป็นมนุษย์ ( Humanistic
+                Medicine )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การปลูกฝังคุณลักษณะของแพทย์ที่ดีให้กับนักศึกษา
+                เพื่อในวันหนึ่งหากนักศึกษามีความรู้ทาง clinic
+                มากพอที่จะรักษาคนไข้
+                เราอาจเผลอมองคนไข้แล้วลืมคำนึงถึงเรื่องทั่วไป หรือจิตใจของคนไข้
+                แล้ววิเคราะห์เพียงอาการหรือ โรคที่แสดงออกมาเท่านั้น
+                แต่ไม่ได้วิเคราะห์ลงไปถึงสภาพจิตใจของคนไข้
+                เราจะได้โอกาสพบคนไข้ที่อยู่ที่วอร์ดจริงๆ พบปะพูดคุยกับคนไข้
+                ได้ทำความรู้จักคนไข้ ในฐานะคนคนหนึ่ง ความคิด
+                ความรู้สึกต่อเรื่องเรื่องที่เกิดขึ้นของคนไข้<br /><br />
+                15. วิทยาการระบาด และชีวสถิติในการปฏิบัติงานสาธารณสุข (
+                Epidemiology and Biostatistics in Public Health Practice )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ได้เรียนรู้แนวคิดทางระบาดวิทยา
+                ในการอธิบายรูปแบบการเจ็บป่วยในประชากร หลังการทดสอบทางระบาดวิทยา
+                รูปแบบการวิจัยสำหรับสอบสวนสาเหตุของโรค<br /><br />
+                16. ปฏิบัติการมหกายวิภาคศาสตร์ 1 ( Gross Anatomy Laboratory I
+                )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราจะได้ผ่าอาจารย์ใหญ่
+                เพื่อศึกษาทุกส่วนที่เป็นพื้นฐานของโครงสร้างร่างกาย<br /><br />
+                17. ปฏิบัติการมหกายวิภาคศาสตร์ 2 ( Gross Anatomy Laboratory II
+                )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;โฟกัสที่อวัยวะตามระบบต่างๆ<br /><br />
+                18. วิชาทักษะชีวิต และสังคม ( Life and Social Skills )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรียนเกี่ยวกับวิธีการค้นคว้าทางการแพทย์
+                , การค้นคว้าวิจัยต่างๆ เพื่อตามการแพทย์ปัจจุบันให้ทัน ,
+                การใช้ชีวิตทั่วไป และวิธีการวางแผนต่างๆ<br /><br />
+                19. วิชาเชิงวิพากษ์สังคมไทยร่วมสมัย ( Critical Review of
+                Contemporary Thai Society ) <br /><br />
+                <span class="fw-bold">
+                  <hr />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เท่านี้ก็จบเนื้อหา ปีที่ 2
+                  ไปแล้ว อันนี้แค่รู้ว่าเรียนอะไรบ้างอย่างคร่าวๆ
+                  ราฟต้องขอโทษด้วยที่ไม่สามารถเขียน
+                  อธิบายทุกวิชาได้อย่างละเอียดไม่งั้น บางทีมันคงจะเยอะมากแน่นอน
+                  โฮะ ๆ ๆ งั้น ราฟจะเล่าเรื่องตัวเองต่อละนะ 55
+                  เนื้อหาที่เรียนตอนนี้คงดูเหมือนราฟ
+                  ลิสต์ให้ดูแล้วบางคนอาจจะรู้สึกเฉยๆ หรือป่าว พูดเล่นน่า
+                  แค่นี้ก็เยอะจนจะตายแล้ว สำหรับราฟนะ เพราะฉะนั้น
+                  ขอให้รู้ไว้เลยว่า ถ้าการจะเป็นหมอนั้นไม่ง่าย เป็นคำเตือนจาก
+                  ราฟที่แค่นั่งหาข้อมูล อ่านนู่นนี่ ดูวิดีโอในเน็ต ( แค่ทำแค่นี้
+                  ไป 3 วันได้ไงฟะ ออ เล่นเกมเป็นส่วนใหญ่เลย หาข้อมูลนานไปหน่อย
+                  LOL ) แต่สำหรับราฟ มันเป็นเรื่องจริงที่การเป็นหมอนั้น
+                  ต้องเป็นเพราะอยากจริงๆ เพราะมันน่าจะเหนื่อยมากๆๆๆๆ
+                  เครงั้นไปต่อ ปี 3 กันเลย Gooo
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="image/3.jpg"
+              alt=""
+              class="img_cover"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-content2"
+              loading="lazy"
+              height="300"
+            />
+          </div>
+          <div id="collapse-content2" class="collapse my-3">
+            <div class="card">
+              <div
+                class="card-body h5 card_bg"
+              >
+                <h4
+                  class="text-center fw-bold"
+                  style="text-decoration: underline"
+                >
+                  ปี 3 เรียนร่ายมนุษย์แบบผิดปกติ
+                </h4>
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ปีนี้ก็จะได้เรียนรู้เกี่ยวกับสิ่งต่าง
+                ๆ ที่ทำให้ร่างกายของเราเกิดอาการเจ็บป่วยหรือทำให้ร่างกายผิดปกติ
+                แล้วยังได้รู้จักกับเชื้อโรคชนิดต่าง ๆ สาเหตุของการเกิดโรค
+                และนอกจากนี้ยังเรียนเกี่ยวกับยาชนิดต่าง ๆ ที่ใช้ในการรักษาโรค
+                (ระดับพื้นฐาน) อีกด้วย<br /><br />
+                1. ระบบภูมิคุ้มกันของร่างกาย ( Immunology ) <br /><br />
+                2. พันธุกรรมและมะเร็ง ( Genetics and Neoplasia )<br /><br />
+                3. จุลชีววิทยา ( Microbiology and Parasitology )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ศึกษาพวกแบคทีเรีย ไวรัส เชื้อรา
+                และปรสิต เราต้องทำความรู้จักเพื่อนตัวจิ๋วพวกนี้
+                เราต้องจำขนาดของเพื่อน ความสามารถในการดื้อยาฆ่าเชื้อ
+                ต้องเลี้ยงเพื่อนตัวจิ๋วนี้ด้วยสารใด
+                เพื่อนถูกเซลล์อะไรในร่างกายเป็นตัวทำลายหลัก
+                ต้องใช้ยาฆ่าเชื้อใดเพื่อฆ่าเพื่อน เอาจริงก็จำหมดแหละนะ
+                อย่าคิดไรมาก 55<br /><br />
+                4. การบำบัดรักษาทางแพทย์ ( Therapeutic Medicine )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรื่องเกี่ยวกับยา
+                ยาออกฤทธิ์ฟเป็นอย่างไร ปฏิกิริยาระหว่างยา วิธีการใช้ยา
+                การเรียนวิชานี้ ช่วยแก้ความรู้ผิดๆ ที่ติดตัวบางคนมา เช่น
+                ยาสลบในหนังที่เราเห็นนั้น ความจริงไม่ได้ออกผลทันที
+                แต่ต้องการเวลาสักพักหนึ่งในการออกฤทธิ์
+                และวิธียาที่สามารถออกฤทธิ์ได้เร็วที่สุด คือ การฉีด <br /><br />
+                5. ระบบต่างๆ เหมือนตอนปีที่ 2 แต่เป็นผิดปกติแทน <br /><br />
+                6. อาการวิทยา ( Symptomatology )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ว่าด้วยอาการสำคัญที่ผู้ป่วยมาหาหมอ
+                การซักประวัติ และตรวจร่างกายเพิ่มเติม
+                นำไปสู่การวินิจฉัยโรคที่ถูกต้อง การซักประวัตินั้นสำคัญมาก
+                ว่ากันว่า “การซักประวัติที่ดี นำไปสู่การวินิจฉัยโรคได้ประมาณ 80
+                เปอร์เซ็นต์”<br /><br />
+                7. เวชศาสตร์ป้องกัน ( Preventive Medicine )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ศาสตร์ทางการแพทย์ที่ให้ความสำคัญแก่การป้องกัน
+                และลดการแพร่กระจายของโรค ทั้งโรคติดต่อและโรคไม่ติดต่อ<br /><br />
+                8. เวชศาสตร์อิงหลักฐาน ( Evidence-Based Medicine )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;คล้ายกับ ชีวสถิติ
+                ที่ศึกษาการทดลองเก็บข้อมูล และวิธีแปลผล
+                แต่มีการนำมาประยุกต์มากขึ้น ในการทดลองมาตีความหมายว่า
+                ข้อมูลนั้นสามารถเชื่อถือได้หรือไม่ มีนัยสำคัญทางสถิติ
+                หรือนัยสำคัญทางคลินิก<br /><br />
+                9. เวชจริยศาสตร์และกฎหมาย ( Medical Ethics and Laws )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;จริยธรรมทางการแพทย์
+                การสอนดูแลผู้ป่วยและญาติในระยะสุดท้าย
+                กฎหมายพื้นฐานที่แพทย์ควรรู้<br /><br />
+                10. วิชาสังคมและสุขภาพ ( Society and Health )<br />
+                <br />
+                <span class="fw-bold">
+                  <hr />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;พอมาศึกษาตรงนี้จะได้พบมุมมองที่หลากหลายของคนในสังคม
+                  ทั้งความเชื่อทางศาสนา วิธีคิดและ กรอบความคิดบางอย่าง
+                  ไปจนถึงทฤษฎีทางสังคมที่อธิบายแนวคิดเหล่านั้น เห้ เห้
+                  เรามากันครึ่งหนึ่งของ 6 ปีแล้ว ยังไหวกันอยู่ไหม
+                  หรือว่าบางคนกดออกไปแล้วน้า 555 หลังเรียนจบปี 3
+                  นั้นจะมีการสอบที่เรียกว่า National License I หรือ NL I
+                  การสอบเพื่อประเมินความรู้ความสามารถในการประกอบวิชาชีพเวชกรรมขั้นตอนที่
+                  1 เพื่อประเมินนักศึกษาแพทย์ทั้ง ประเทศ ซึ่งบอกไว้ก่อนว่า
+                  เดี๋ยวก็มีสอบอีก 55 อย่าคิดมาก เป็นเนื้อหาที่เรียนมาตั้งแต่ต้น
+                  ถึงเนื้อหาปีที่ 3 อ่านกันหัวฟูไปเลย อืมเนื้อหาปี 3
+                  น่าจะครบแล้วหล่ะ ลุยไปปี 4 กันเลย
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="padding-top: 5%">
+          <div class="col-md-4">
+            <img
+              src="image/4.jpg"
+              class="img_cover"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-content3"
+              loading="lazy"
+            />
+          </div>
+          <div id="collapse-content3" class="collapse my-3">
+            <div class="card">
+              <div
+                class="card-body h5 card_bg"
+              >
+                <h4
+                  class="text-center fw-bold"
+                  style="text-decoration: underline"
+                >
+                  ปี 4 ได้ขึ้นวอร์ดแล้วว
+                </h4>
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ลักษณะการ เรียนระดับชั้นคลินิก
+                จะแบ่ง เป็น 2 แบบ คือ การเรียนผ่านอาจารย์ เช่น
+                เรียนกับผู้ป่วยข้างเตียง การเรียนผ่านเลคเชอร์ ทำงานกลุ่ม
+                ฝึกนำเสอน เป็นต้น และการเรียนผ่านการปฏิบัติงานจริง เช่น
+                การรับผู้ป่วยมาไว้ในการดูแลของตน <br /><br />
+                ภาควิชา / วอร์ด ( Ward )<br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Clinical Medicine
+                ( ICM ) หรือ การเรียนก่อนขึ้นวอร์ด คือ Basic Clinical Skills ,
+                Clinical Problem Solving<br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Major Ward คือ Obstetrics and
+                Gynecology , Surgery I , Medicine I , Pediatrics I (
+                สู-ศัลย์-เมด-เด็ก )<br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minor Ward คือ Psychiatry ,
+                Radiology , Preventive and Social Medicine-Family Medicine ,
+                Community Medicine<br /><br />
+                วิชาที่เรียน ดังนี้<br /><br />
+                1. ทักษะพื้นฐานทางคลินิก และการแก้ปัญหาทางคลินิก ( Basic
+                Clinical Skills and Clinical Problem Solving )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เป็นการทบทวนเนื้อหาเล็กๆ น้อยๆ
+                ที่เคยผ่านมาแล้ว แต่จะสอนเนื้อหาส่วนที่ไปปฏิบัติจริง
+                เพิ่มมากขึ้น เช่น ทักษะการซักประวัติ การตรวจร่างกาย
+                การส่งตรวจทางห้องปฏิบัติการเพื่อช่วยวินิจฉัย และวิธีการรักษา<br /><br />
+                2. สูติศาสตร์และนรีเวชวิทยา ( Obstetrics and Gynecology I )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เนื้อหาการสอนจะแล้วแต่มหาลัย
+                แต่จากตัวอย่างที่ผมศึกษามานั้น ปี 4 จะเรียนนรีเวชวิทยา
+                คือเรียนผู้หญิงที่ยังไม่ตั้งครรภ์ และปี 5 เรียนสูติศาสตร์
+                คือเรียนผู้หญิงที่ตั้งครรภ์<br /><br />
+                3. ศัลยศาสตร์ ( Surgery I )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การเรียนแล้วแต่มหาลัย จัด
+                แต่เนื้อหาจะประกอบด้วยศัลยศาสตร์หลอดเลือด , ศีรษะ คอ และทรวงอก ,
+                ทางเดินปัสสาวะ , ลำไส้ใหญ่และทวารหนัก , ตับ ตับอ่อน
+                และทางเดินน้ำดี , ผ่าตัดและส่องกล้อง และอีกอย่างหนึ่งคือ
+                วิชานี้ได้เข้าห้องผ่าตัด ( OR – Operating Room ) แน่นอน
+                <br /><br />
+                4. Medicine I<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ส่วนใหญ่วอร์ดนี้เป็นการปฏิบัติงานเป็นหลัก
+                คือ การรับเคสผู้ป่วยไว้ดูแล ฝึกเขียนใบสั่งยา
+                ได้ฝึกทักษะทางหัตถการ เช่น เจาะเลือดตรวจน้ำตาลบริเวณปลายนิ้ว
+                เจาะเก็บเลือดจากเส้นเลือดแดง การให้เลือด <br /><br />
+                5. กุมารเวชศาสตร์ ( Pediatrics I )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;คล้ายกับอายุรศาสตร์
+                ต่างกันแค่ช่วงอายุทำให้ต้อง โฟกัสประเด็นที่ต่างกัน เช่น
+                การเจริญเติบโต การรับสารอาหาร เป็นต้น <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สิ่งที่ Major ward มีความคลึงกัน
+                คือ “ การราวน์ ” หมายถึง เดินมาดูคนไข้ในวอร์ดทุกเตียง
+                โดยมักทำในช่วงเช้ากับเย็น และการเรียนข้างเตียงกับผู้ป่วย (
+                Bedside ) โดยเน้นทางทักษะทางคลินิกเป็นหลัก คือ
+                ทักษะการซักประวัติ ตรวจร่างกาย และวินิจฉัยแยกโรค<br /><br />
+                6. รังสีวิทยา ( Radiology )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ส่วนใหญ่จะเป็นเลคเชอร์รังสี
+                มีเพิ่มเนื้อหาที่ไม่ได้เรียนก่อนขึ้นวอร์ด คือรังสีรักษา
+                และรังสีนิวเคลียร์ 7. เวชศาสตร์ชุมชน ( Community Medicine )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การได้ออกชุมชน
+                เพื่อให้เห็นอีกบริบทหนึ่งของสังคมระดับต่างจังหวัด
+                ขึ้นอยู่กับว่าถูกส่งไปไหน การเรียนนี้
+                เป็นการเรียนจากประสบการณ์ตรง
+                คือการสัมผัสความรู้ผ่านการวนในโรงพยาบาล เช่นผู้ป่วยนอก ผู้ป่วยใน
+                หน่วยทางกายภาพ หน่วยแพทย์แผนไทย หน่วยเวชศาสตร์ครอบครัว<br /><br />
+                8. เวชศาสตร์ป้องกันและสังคม-เวชศาสตร์ครอบครัว ( Preventive and
+                Social Medicine – Family Medicine )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เลคเชอร์เกี่ยวกับอาชีวเวชศาสตร์ (
+                การดูแลสุขภาพของคนทำงาน ครอบคลุมตั้งแต่การส่งเสริม ป้องกันโรค
+                การรักษาโรค และการฟื้นฟูสุขภาพของคนทำงาน ) พิษวิทยา (
+                ผลกระทบของสารเคมีต่างๆ
+                ที่ก่อให้เกิดอันตรายต่อสิ่งมีชีวิตและสภาพแวดล้อม )
+                เวชศาสตร์ป้องกันทั่วไป ( การตรวจคัดกรองโรค การให้วัคซีน
+                โรคติดเชื้อ
+                การฝึกอ่านงานวิจัยโดยใช้ความรู้จากเวชศาสตร์อิงหลักฐาน )<br /><br />
+                9. จิตเวชศาสตร์ ( Psychiatry )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เป็นวอร์ดที่ให้เวลา
+                และความสำคัญกับการฟังผู้ป่วยมากที่สุด
+                ตอนซักประวัติหมอจะได้รับรู้เรื่องราว
+                ไม่ใช่แค่โรคนี้มันมีผลมาจากอะไร
+                แต่ฟังเรื่องราวที่ร้อยเรียงของคนๆ หนึ่ง เหมือนม้วนหนังหนึ่งม้วน
+                ทำให้หมอได้รับรู้สาเหตุ การกระทำของผู้ป่วย วิธีคิด อะไรต่างๆ
+                นานา เพื่อให้หมอสามารถเข้าใจผู้ป่วยได้มากยิ่งขึ้น<br /><br />
+                <span class="fw-bold">
+                  <hr />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สำหรับปี 4 ราฟได้ยินมาว่า
+                  จะเป็นช่วงที่ มีคนลาออกมากที่สุด อันเนื่องมาจากเหตุผลมากมาย
+                  แต่ที่เจอเยอะ น่าจะเป็นเพราะ หลังจากได้ใกล้ชิดผู้ป่วยแล้ว
+                  รู้ว่าไม่ใช่สิ่งที่ตัวเองจะทุ่มเท ทำเป็นอาชีพได้
+                  หรือไม่ก็อาจจะเป็นเพราะ เรียนไม่ไหว เพราะ การเปลี่ยนการเรียนมา
+                  ปี 4 นั้น ต่างจากปี 3 มากๆ ละมั้งนะ ใช่ๆ ลืมบอกไปเลย ว่า ปี 4
+                  ก็จะได้อยู่เวรแล้ว เป็นช่วงเวลาประมาณ 16:00 – 23:00น.
+                  แต่ไม่รู้ว่า วันไหน แล้วก็กี่วันต่อสัปดาห์นะ 55
+                  แล้วก็มีการเขียนรายงานด้วย ก็ดูรวมๆ ถ้าเป็นราฟละก็
+                  น่าจะซี้แหงแน่นอน <br />
+                  <a
+                    href="https://www.si.mahidol.ac.th/th/department/surgery/sisur/download.html "
+                    target="blank"
+                    class="text-white"
+                    >รายงาน 1 </a
+                  ><br />
+                  <a
+                    class="text-white"
+                    href="https://www.si.mahidol.ac.th/th/department/surgery/sisur/lecture/4/461-1/461-1_%E0%B8%84%E0%B8%B3%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99.pdf"
+                    target="blank"
+                    >รายงาน 2</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="image/5.jpg"
+              alt=""
+              class="img_cover"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-content4"
+              loading="lazy"
+            />
+          </div>
+          <div id="collapse-content4" class="collapse my-3">
+            <div class="card">
+              <div
+                class="card-body h5 card_bg"
+              >
+                <h4
+                  class="text-center fw-bold"
+                  style="text-decoration: underline"
+                >
+                  ปี 5 เรียนจะจบเนื้อหาหมดแล้ว !!!
+                </h4>
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สำหรับรูปแบบการเรียนในชั้นปีที่ 5
+                จะเหมือนกับปี 4 คือแบ่งออกเป็นกลุ่มย่อย ๆ และวนไปตามวอร์ดต่าง ๆ
+                ตลอดทั้งปี แต่ก็จะมีความแตกต่างกันตรงที่วอร์ดที่วนกันนั้น
+                จะเป็นวอร์ดที่ยังไม่เคยเจอในตอนปี 4 แผนกย่อย ๆ เช่น ตา หู คอ
+                จมูก และพวก วิสัญญี (ดมยา) ออโธ (กระดูก)
+                (การวอร์ดในแต่ละสถาบันการศึกษาอาจจะมีความแตกต่างกันออกไป
+                ตามที่สถาบันได้จัดเอาไว้)<br /><br />
+                1. สูติศาสตร์และนรีเวชวิทยา ( Obstetrics and Gynecology II )<br /><br />
+                2. ศัลยศาสตร์ ( Surgery II )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ได้เรียน ศัลยกรรมทรวงอก (
+                Cardiovascular Thoracic ) และ ศัลยกรรมประสาท ( Neurosurgery )
+                เพิ่มเติม<br /><br />
+                3. Medicine II<br /><br />
+                4. กุมารเวชศาสตร์ ( Pediatrics II )<br /><br />
+                5. ศัลยศาสตร์ออร์โธปิดิกส์ ( Orthopedic Surgery )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรียนทุกอย่างเกี่ยวกับกระดูก
+                โครงสร้าง การเจริญเติบโตและการหักของกระดูก
+                รวมถึงมีการทำงานและบาดเจ็บฉีกขาดที่เกิดขึ้นได้
+                ของกล้ามเนื้อเส้นเอ็น และเส้นประสาทที่ต้องซ่อมแซมให้ถูกวิธี<br /><br />
+                6. วิชาโสด นาสิก ลาริงซ์วิทยา ( Oto-rhino-larygology [ ENT ]
+                )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;วอร์ดหู-คอ-จมูก
+                ทบทวนกายวิภาคของหูคอจมูก โรคเฉพาะทาง ง่ายๆ คือเรียนเกี่ยวกับ
+                หูคอจมูก อย่างละเอียด แล้วก็การรักษาต่างๆ เช่น
+                การทำหัตถด้วยการห้ามเลือดกำเดาด้วยผ้าก๊อซ
+                การตรวจในโพรงจมูกและคอด้วย Headlamp กล้องส่องเพื่อดูช่องหู
+                และแก้วหู<br /><br />
+                7. จักษุวิทยา ( Ophthalmology )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กายวิภาคของตา การวัดระยะมองเห็น
+                การวัดลานสายตา (Visual field) ว่าแคบผิดปกติหรือไม่ ภาวะบอดสี
+                การใช้กล้องส่องดูจอ ประสาทตาหาความผิดปกติ<br /><br />
+                8. นิติเวชศาสตร์ ( Forensic Medicine )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กฎหมายทางการแพทย์ที่ควรรู้
+                การชันสูตรพลิกศพ ขั้นตอนการชันสูตรพลิกศพ ทำให้หมอสามารถบอกได้ว่า
+                ศพถูกเคลื่อนย้ายหรือไม่ ตายจากสาเหตุที่สันนิษฐานจริงหรือไม่
+                <br /><br />
+                9. เวชศาสตร์ฟื้นฟู ( Physical Medicine and Rehabilitation [ PM &
+                R ] )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การฟื้นฟูสมรรถภาพ ด้วยวิธีต่างๆ
+                ได้เรียนการทำงานของก้ามเนื้อมัดต่างๆ ฝึกยืดก้ามเนื้อในแต่ละมัด
+                เพื่อลดอาการบาดเจ็บ จากการเล่นกีฬา <br /><br />
+                10. วิสัญญีวิทยา ( Anesthesiology )<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรียกกันโดยทั่วไปว่า “ดมยา”
+                เป็นขั้นตอนการเตรียมคนไข้ก่อนเข่ารับการผ่าตัด
+                การระงับความรู้สึกของคนไข้ โดยการให้ยาสลบ การระงับความเจ็บปวด
+                โดยการบล็อกหลัง<br /><br />
+                <span class="fw-bold">
+                  <hr />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เนื้อหาที่ต้องเรียน
+                  ก็จบไปหมดแล้ว ขั้นต่อไป ก็คือ Extern
+                  เพื่อเก็บเกี่ยวประสบการณ์ก่อนจะจบแล้วได้เป็นหมอจริงๆ
+                  มาถึงตรงนี้ เนื้อหาที่ต้องเรียนก็จบไปแล้วนะครับ
+                  เพราะฉะนั้นตอนนี้ ราฟก็ได้พาทุกๆ คนที่อยากรู้ว่า
+                  หมอต้องเรียนรู้อะไรบ้างมาเกือบสุดทางกันแล้ว ที่เหลือ
+                  จะเป็นข้อมูลว่า... ยังๆ เอาให้จบ Extern ก่อนละกัน 55
+                  แต่ที่แน่ๆ ใกล้เวลาที่เราจะจากกันแล้วสินะ T.T เอ้ยเกือบลืมไป
+                  ปี 5 มีอีเว้นสอบ NL step II นี่นะ แล้วปี 5
+                  ก็ยังคงต้องเขียนรายงานอยู่แต่เป็นปีสุดท้ายละนะ
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="image/6.jpg"
+              alt=""
+              class="img_cover"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-content6"
+              loading="lazy"
+            />
+          </div>
+          <div id="collapse-content6" class="collapse my-3">
+            <div class="card">
+              <div
+                class="card-body h5 fw-bold card_bg"
+              >
+                <h4
+                  class="text-center fw-bold"
+                  style="text-decoration: underline"
+                >
+                  ปี 6 ExternNN
+                </h4>
+                <br />
+                <center>
+                  <img src="image/หมออออ.png" alt="" class="img-fluid" loading="lazy" />
+                </center>
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ราฟจะเล่าเอง
+                ละกันน้าในปีสุดท้ายหน่ะ นี่เป็น loop ชีวิตของ extern
+                เพื่อจะเก็บประสบการณ์อันมากเหลือ มีการราวน์วอร์ด
+                ซึ่งทำมาตั้งแต่ปี 4 แต่เพราะเป็นรุนพี่ที่สุด
+                เลยต้องช่วยแนะนำรุ่นน้อง ปี 4 และ 5 ในกลุ่มวนใน
+                ส่วนกลุ่มวนนอกจะมี รุ่นพี่ intern ( พี่ที่พึ่งจบ แล้วทำงานปีแรก
+                ) ให้คำปรึกษาแก่เรา ปีนี้เราจะได้ทำหัตถการที่ยากและท้าทายมากขึ้น
+                เช่น <br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;วอร์ดอายุรกรรมและวอร์ดเด็ก
+                จะได้ฝึกเจาะน้ำไขกระดูกสันหลัง ใส่ท่อช่วยหายใจ
+                เจาะน้ำในข้อไปตรวจ<br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;วอร์ดสูตินรีเวช ได้ฝึกทำคลอด
+                ผ่าตัดทำคลอด ใช้เครื่องอัลตราซาวน์ เพื่อดูทารกในครรภ์<br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;วอร์ดศัลยกรรม
+                เข้าช่วยในการผ่าตัดโรคต่างๆ ยังได้ผ่าเองบ้างในบางอย่าง เช่น
+                การกรีดระบายฝีหนอง <br /><br />
+                ปีนี้เราจะได้นำเสนอใน Grand Round
+                (การนำเคสคนไข้บนวอร์ดที่มีความน่าสนใจ
+                หรือยากซับซ้อนเป็นพิเศษมานำเสนอ) จะจัด 1 ครั้ง ต่อสัปดาห์
+                ช่วงวนใน ในตอนปี 4 และ 5 เราจะได้เป็นแค่ผู้ฟัง <br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ในส่วนการเข้าเวร ราฟบอกเลยว่าชิวๆ
+                แค่ 1 วันเอง เข้าประมาณเดือนละ 8-10 เวร
+                มนุษย์ไม่นอนก็ไม่เป็นอะไรหรอกนะ 555 ไม่จริง
+                แต่ก็ได้ฝึกมาตั้งแต่ปี 4 แล้ว ชิวๆ จริงๆๆๆๆ เอาใจช่วยปี 6
+                ทุกคนนะครับ ที่เหลือก็เป็นการเข้า
+                วอร์ดแล้วก็ปฏิบัติหน้าที่ประจำวอร์ดนั้นๆ แล้วก็สอบ NL Step III
+                <br /><br />
+                <hr />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;งั้นเรามาจบกันดีกว่ากับ 6
+                ปีในการเรียนหมอ ราฟก็ใกล้จะหมดหน้าที่ไป เต็มที
+                ข้อมูลเพียงเท่านี้ ก็น่าจะช่วยให้ทุกคนที่ตัดสินใจว่า
+                จะเรียนหมอดีไหมได้เริ่มตัดสินใจกันสักที แต่นี่ก็เป็นเพียงแค่
+                factor หนึ่งในการตัดสินใจเท่านั้น ด้านล่างจะ
+                เป็นข้อมูลการสัมภาษณ์จากพี่ๆ เพื่อนๆ น้องๆ ที่ผมรู้จัก
+                ทั้งคนที่อยากเป็นหมอ สอบเข้าหมอไปแล้ว หรือคนที่ไม่ได้อยากเป็นหมอ
+                เพื่อรู้มุมมองที่พวกเขาเหล่านั้น มีต่ออาชีพหมอ
+                ผมบอกใบ้ไว้ตรงนี้ดีกว่า ว่า ราฟตอนนี้นั้น
+                ตัดสินใจไปทางอาชีพอื่นที่ไม่ใช่หมอแล้วหล่ะ 55 เพราะว่า
+                ยิ่งราฟหาข้อมูล ยิ่งรู้เท่าไรเกี่ยวกับหมอ ก็ยิ่งรู้ว่า
+                ตัวเองยังไม่มีแรงจูงใจที่อยากเป็นหมอเลย
+                หมอนั้นเหนื่อยมากสำหรับราฟหน่ะนะ เพราะฉะนั้นนะทุกคน
+                ที่อยากเป็นหมอ ขอให้ตัดสินใจอย่างแน่วแน่
+                ว่าเป็นหมอเพราะอยากเป็นจริงๆ
+                ส่วนคนที่อยากเป็นแต่กลัวตัวเองไม่ไหว ไม่ต้องกลัวหรอก
+                มนุษย์อย่างพวกเราหน่ะ
+                ตราบที่ยังไม่ตายก็จงดิ้นรนทำสิ่งที่ตัวเองรักไปจนถึงปลายทางเถอะ
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-white">
+            <p>Copyright &copy; MawinS17</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
